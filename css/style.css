@@ -3,6 +3,7 @@
     --primary: #00B98E;
     --secondary: #FF6922;
     --light: #EFFDF5;
+    --sombraazul: #82b7fd;
     --dark: #0E2E50;
 }
 
@@ -247,7 +248,7 @@
 }
 
 .cat-item:hover div {
-    background: var(--primary);
+    background: var(--sombraazul);  /**** Cambiar sobra de Tipoogias***/
     border-color: transparent;
 }
 

@@ -3079,7 +3079,7 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #00B98E;
+    background-color: #00B98E;  /*** cambiar color de flecha UP ***/
     border-color: #00B98E
 }
 
@@ -3091,7 +3091,7 @@ fieldset:disabled .btn {
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
-    color: #000;
+    color: #000000;
     background-color: #26c49f;
     border-color: #1ac099;
     box-shadow: 0 0 0 .25rem rgba(0, 157, 121, 0.5)
@@ -3102,7 +3102,7 @@ fieldset:disabled .btn {
 .btn-primary:active,
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
-    color: #000;
+    color: #000000;
     background-color: #33c7a5;
     border-color: #1ac099
 }
@@ -3117,27 +3117,27 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled,
 .btn-primary.disabled {
-    color: #000;
+    color: #000000;
     background-color: #00B98E;
     border-color: #00B98E
 }
 
 .btn-secondary {
-    color: #000;
-    background-color: #26ad21;
+    color: #000000;
+    background-color: #26ad21;  /*** cambiar color de botones ***/
     border-color: #26ad21
 }
 
 .btn-secondary:hover {
-    color: #000;
-    background-color: #10530d;
+    color: #000000;
+    background-color: #10530d;  /*** cambiar color de botones ***/
     border-color: #10530d
 }
 
 .btn-check:focus+.btn-secondary,
 .btn-secondary:focus {
-    color: #000;
-    background-color: #ff8043;
+    color: #000000;
+    background-color: #ff8043;  /*** cambiar color de botones ***/
     border-color: #ff7838;
     box-shadow: 0 0 0 .25rem rgba(217, 89, 29, 0.5)
 }
@@ -3147,8 +3147,8 @@ fieldset:disabled .btn {
 .btn-secondary:active,
 .btn-secondary.active,
 .show>.btn-secondary.dropdown-toggle {
-    color: #000;
-    background-color: #ff874e;
+    color: #000000;
+    background-color: #ff874e;  /*** cambiar color de botones ***/
     border-color: #ff7838
 }
 
@@ -3162,14 +3162,14 @@ fieldset:disabled .btn {
 
 .btn-secondary:disabled,
 .btn-secondary.disabled {
-    color: #000;
-    background-color: #FF6922;
+    color: #000000;
+    background-color: #FF6922;  /*** cambiar color de botones ***/
     border-color: #FF6922
 }
 
 .btn-success {
-    color: #fff;
-    background-color: green;
+    color: #000000;
+    background-color: green;  /*** cambiar color de botones ***/
     border-color: #198754
 }
 
@@ -3213,7 +3213,7 @@ fieldset:disabled .btn {
 }
 
 .btn-info {
-    color: #000;
+    color: #000000;
     background-color: green;
     border-color: #0dcaf0
 }
@@ -8366,7 +8366,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #EFFDF5 !important
+    background-color: #EFFDF5 !important  /*** cambiar color sombra de clasificador  ***/
 }
 .bg-dark {
     background-color: #1e2125!important /*** cambiar color del footer ***/
@@ -8376,7 +8376,7 @@ fieldset:disabled .btn {
 }
 
 .bg-white {
-    background-color: #fff !important
+    background-color: #fff !important  /*** cambiar color del body ***/
 }
 
 .bg-transparent {
