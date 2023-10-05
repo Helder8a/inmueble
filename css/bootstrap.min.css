@@ -3080,7 +3080,7 @@ fieldset:disabled .btn {
 .btn-primary {
     color: #000;
     background-color: #1d518a;  /*** cambiar color de flecha UP ***/
-    border-color: #1d518a
+    border-color: #1e61a8d0
 }
 
 .btn-primary:hover {
@@ -8286,7 +8286,7 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #000000 !important /*** cambiar color de tecto de la pagina ***/
+    color: #000000 !important /*** cambiar color de texto de la pagina ***/
 }
 
 .text-secondary {
@@ -8376,7 +8376,7 @@ fieldset:disabled .btn {
 }
 
 .bg-white {
-    background-color: #fff !important  /*** cambiar color del body ***/
+    background-color: #FFFFFF !important  /*** cambiar color del body ***/
 }
 
 .bg-transparent {
