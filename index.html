@@ -59,19 +59,6 @@
 
 </head>
 
-<!-- oyentes pasivos) -->
-jQuery.event.special.touchstart = {
-    setup: function( _, ns, handle ) {
-        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
-    }
-};
-jQuery.event.special.touchmove = {
-    setup: function( _, ns, handle ) {
-        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
-    }
-}
-<!-- oyentes pasivos) -->
-
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-TGCQY36LEN"></script>
 <script>
