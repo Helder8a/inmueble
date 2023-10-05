@@ -4325,7 +4325,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #00B98E;
+    color: #000000; /*** cambiar color de texto barra navegacion ***/
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 
@@ -4337,7 +4337,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #009472
+    color: #009472   /*** cambiar color de texto barra navegacion link ***/
 }
 
 .nav-link.disabled {
@@ -8290,15 +8290,15 @@ fieldset:disabled .btn {
 }
 
 .text-secondary {
-    color: #FF6922 !important
+    color: #000000 !important
 }
 
 .text-success {
-    color: #198754 !important
+    color: #000000 !important
 }
 
 .text-info {
-    color: #0dcaf0 !important
+    color: #000000 !important
 }
 
 .text-warning {
@@ -8322,11 +8322,11 @@ fieldset:disabled .btn {
 }
 
 .text-body {
-    color: #666565 !important
+    color: #000000 !important
 }
 
 .text-muted {
-    color: #6c757d !important
+    color: #000000 !important
 }
 
 .text-black-50 {
