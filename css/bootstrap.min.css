@@ -3079,14 +3079,14 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #00B98E;  /*** cambiar color de flecha UP ***/
-    border-color: #00B98E
+    background-color: #82b7fd;  /*** cambiar color de flecha UP ***/
+    border-color: #82b7fd
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #26c49f;
-    border-color: #1ac099
+    background-color: #0E2E50;  /*** cambiar color de flecha UP ***/
+    border-color: #0E2E50
 }
 
 .btn-check:focus+.btn-primary,
