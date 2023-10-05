@@ -1,6 +1,6 @@
 /*!
  */
-:root {
+ :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -46,8 +46,8 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: black;
-    background-color: #EFFDF5;
+    color: #000000;  /*** cambiar color de texto fondo del body de la pagina web ***/
+    background-color: #e9f0faee;  /*** cambiar color de fondo del body de la pagina web ***/
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
 }
@@ -229,12 +229,12 @@ sup {
 }
 
 a {
-    color: #00B98E;
+    color: #000000;
     text-decoration: none
 }
 
 a:hover {
-    color: #009472
+    color: #000000
 }
 
 a:not([href]):not([class]),
@@ -3079,19 +3079,19 @@ fieldset:disabled .btn {
 
 .btn-primary {
     color: #000;
-    background-color: #00B98E;
-    border-color: #00B98E
+    background-color: #1d518a;  /*** cambiar color de flecha UP ***/
+    border-color: #1e61a8d0
 }
 
 .btn-primary:hover {
     color: #000;
-    background-color: #26c49f;
-    border-color: #1ac099
+    background-color: #0E2E50;  /*** cambiar color de flecha UP ***/
+    border-color: #0E2E50
 }
 
 .btn-check:focus+.btn-primary,
 .btn-primary:focus {
-    color: #000;
+    color: #000000;
     background-color: #26c49f;
     border-color: #1ac099;
     box-shadow: 0 0 0 .25rem rgba(0, 157, 121, 0.5)
@@ -3102,7 +3102,7 @@ fieldset:disabled .btn {
 .btn-primary:active,
 .btn-primary.active,
 .show>.btn-primary.dropdown-toggle {
-    color: #000;
+    color: #000000;
     background-color: #33c7a5;
     border-color: #1ac099
 }
@@ -3117,29 +3117,29 @@ fieldset:disabled .btn {
 
 .btn-primary:disabled,
 .btn-primary.disabled {
-    color: #000;
+    color: #000000;
     background-color: #00B98E;
     border-color: #00B98E
 }
 
 .btn-secondary {
-    color: #000;
-    background-color: #26ad21;
-    border-color: #26ad21
+    color: #FF6922;
+    background-color: #2a9926;  /*** cambiar color de botones ***/
+    border-color: #2a9926       /*** cambiar color borde de botones ***/
 }
 
 .btn-secondary:hover {
-    color: #000;
-    background-color: #10530d;
-    border-color: #10530d
+    color: #FF6922;
+    background-color: #FF6922;  /*** cambiar color de botones ***/
+    border-color: #FF6922       /*** cambiar color borde de botones ***/
 }
 
 .btn-check:focus+.btn-secondary,
 .btn-secondary:focus {
-    color: #000;
-    background-color: #ff8043;
-    border-color: #ff7838;
-    box-shadow: 0 0 0 .25rem rgba(217, 89, 29, 0.5)
+    color: green;
+    background-color: green;       /*** cambiar color accion ***/
+    border-color: green;           /*** cambiar color accion ***/
+    box-shadow: 0 0 0 .25rem green   /*** cambiar color accion ***/
 }
 
 .btn-check:checked+.btn-secondary,
@@ -3147,9 +3147,9 @@ fieldset:disabled .btn {
 .btn-secondary:active,
 .btn-secondary.active,
 .show>.btn-secondary.dropdown-toggle {
-    color: #000;
-    background-color: #ff874e;
-    border-color: #ff7838
+    color: green;
+    background-color: green;  /*** cambiar color accion ***/
+    border-color: green      /*** cambiar color accion ***/
 }
 
 .btn-check:checked+.btn-secondary:focus,
@@ -3157,12 +3157,12 @@ fieldset:disabled .btn {
 .btn-secondary:active:focus,
 .btn-secondary.active:focus,
 .show>.btn-secondary.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(217, 89, 29, 0.5)
+    box-shadow: 0 0 0 .25rem green
 }
 
 .btn-secondary:disabled,
 .btn-secondary.disabled {
-    color: #000;
+    color: #fff;
     background-color: #FF6922;
     border-color: #FF6922
 }
@@ -3170,7 +3170,7 @@ fieldset:disabled .btn {
 .btn-success {
     color: #fff;
     background-color: green;
-    border-color: #198754
+    border-color: green
 }
 
 .btn-success:hover {
@@ -3181,10 +3181,10 @@ fieldset:disabled .btn {
 
 .btn-check:focus+.btn-success,
 .btn-success:focus {
-    color: #fff;
-    background-color: #157347;
-    border-color: #146c43;
-    box-shadow: 0 0 0 .25rem rgba(60, 153, 110, 0.5)
+    color: green;
+    background-color: green;
+    border-color: green;
+    box-shadow: 0 0 0 .25rem green
 }
 
 .btn-check:checked+.btn-success,
@@ -3193,8 +3193,8 @@ fieldset:disabled .btn {
 .btn-success.active,
 .show>.btn-success.dropdown-toggle {
     color: #fff;
-    background-color: #146c43;
-    border-color: #13653f
+    background-color: green;
+    border-color: green
 }
 
 .btn-check:checked+.btn-success:focus,
@@ -3213,7 +3213,7 @@ fieldset:disabled .btn {
 }
 
 .btn-info {
-    color: #000;
+    color: #000000;
     background-color: green;
     border-color: #0dcaf0
 }
@@ -3319,7 +3319,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #bb2d3b;
     border-color: #b02a37;
-    box-shadow: 0 0 0 .25rem rgba(225, 83, 97, 0.5)
+    box-shadow: 0 0 0 .25rem green
 }
 
 .btn-check:checked+.btn-danger,
@@ -3337,7 +3337,7 @@ fieldset:disabled .btn {
 .btn-danger:active:focus,
 .btn-danger.active:focus,
 .show>.btn-danger.dropdown-toggle:focus {
-    box-shadow: 0 0 0 .25rem rgba(225, 83, 97, 0.5)
+    box-shadow: 0 0 0 .25rem green
 }
 
 .btn-danger:disabled,
@@ -3409,7 +3409,7 @@ fieldset:disabled .btn {
     color: #fff;
     background-color: #000000;
     border-color: #000000;
-    box-shadow: 0 0 0 .25rem rgb(0, 0, 0)
+    box-shadow: 0 0 0 .25rem green
 }
 
 .btn-check:checked+.btn-dark,
@@ -3450,7 +3450,7 @@ fieldset:disabled .btn {
 
 .btn-check:focus+.btn-outline-primary,
 .btn-outline-primary:focus {
-    box-shadow: 0 0 0 .25rem rgba(0, 185, 142, 0.5)
+    box-shadow: 0 0 0 .25rem green
 }
 
 .btn-check:checked+.btn-outline-primary,
@@ -4325,7 +4325,7 @@ fieldset:disabled .btn {
 .nav-link {
     display: block;
     padding: .5rem 1rem;
-    color: #00B98E;
+    color: #000000; /*** cambiar color de texto barra navegacion ***/
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out
 }
 
@@ -4337,7 +4337,7 @@ fieldset:disabled .btn {
 
 .nav-link:hover,
 .nav-link:focus {
-    color: #009472
+    color: #009472   /*** cambiar color de texto barra navegacion link ***/
 }
 
 .nav-link.disabled {
@@ -8286,19 +8286,19 @@ fieldset:disabled .btn {
 }
 
 .text-primary {
-    color: #00B98E !important
+    color: #000000 !important /*** cambiar color de texto de la pagina ***/
 }
 
 .text-secondary {
-    color: #FF6922 !important
+    color: #000000 !important
 }
 
 .text-success {
-    color: #198754 !important
+    color: #000000 !important
 }
 
 .text-info {
-    color: #0dcaf0 !important
+    color: #000000 !important
 }
 
 .text-warning {
@@ -8322,11 +8322,11 @@ fieldset:disabled .btn {
 }
 
 .text-body {
-    color: #666565 !important
+    color: #000000 !important
 }
 
 .text-muted {
-    color: #6c757d !important
+    color: #000000 !important
 }
 
 .text-black-50 {
@@ -8366,7 +8366,7 @@ fieldset:disabled .btn {
 }
 
 .bg-light {
-    background-color: #EFFDF5 !important
+    background-color: #EFFDF5 !important  /*** cambiar color sombra de clasificador  ***/
 }
 .bg-dark {
     background-color: #1e2125!important /*** cambiar color del footer ***/
@@ -8376,7 +8376,7 @@ fieldset:disabled .btn {
 }
 
 .bg-white {
-    background-color: #fff !important
+    background-color: #FFFFFF !important  /*** cambiar color del body ***/
 }
 
 .bg-transparent {

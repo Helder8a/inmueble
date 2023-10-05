@@ -3,8 +3,8 @@
     --primary: #00B98E;
     --secondary: #FF6922;
     --light: #EFFDF5;
+    --sombraazul: #82b7fd;
     --dark: #0E2E50;
-    --black: #000000;
 }
 
 .back-to-top {
@@ -112,7 +112,7 @@
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--black);  /*** cambiar color HOME en barra de navegacion***/
 }
 
 @media (max-width: 991.98px) {
@@ -136,7 +136,7 @@
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: var(--black);
+    color: var(--dark);
     font-weight: 500;
 }
 
@@ -187,7 +187,7 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--sombraazul); /*** cambiar color de botones en carrusel ***/
     border-radius: 40px;
     font-size: 20px;
     transition: .5s;
@@ -195,7 +195,7 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--black);
+    background: var(--dark);
 }
 
 @media (max-width: 768px) {
@@ -248,7 +248,7 @@
 }
 
 .cat-item:hover div {
-    background: var(--primary);
+    background: var(--sombraazul);  /**** Cambiar sobra de Tipoogias***/
     border-color: transparent;
 }
 
@@ -263,7 +263,7 @@
 
 /*** Property List ***/
 .nav-pills .nav-item .btn {
-    color: var(--black);
+    color: var(--dark);
 }
 
 .nav-pills .nav-item .btn:hover,
@@ -367,7 +367,7 @@
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
 .testimonial-carousel .owl-nav .owl-next:hover {
-    background: var(--black);
+    background: var(--dark);
 }
 
 
@@ -380,7 +380,7 @@
     align-items: center;
     justify-content: center;
     color: var(--light);
-    border: 1px solid rgba(8, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.5);
     border-radius: 35px;
     transition: .3s;
 }
